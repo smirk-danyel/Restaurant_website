@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karibu Restaurant</title>
+  </head>
+  <body>
+    <h1>Karibu Restaurant</h1>
+    <img
+      src="image/Karibu Restaurant.jpg"
+      alt="Karibu Restaurant"
+      width="300"
+    />
+
+    <h2>Description</h2>
+    <p>
+      Welcome to Karibu Restaurant. We serve delicious meals prepared with fresh
+      ingredients. Our menu includes traditional and modern dishes for everyone
+      to enjoy.
+    </p>
+
+    <h2>Our Menu</h2>
+
+    <table border="1">
+      <tr>
+        <th>Meal</th>
+        <th>Description</th>
+        <th>Price (Ksh)</th>
+      </tr>
+
+      <tr>
+        <td>Ugali & Sukuma</td>
+        <td>Ugali served with fried sukuma wiki</td>
+        <td>150</td>
+      </tr>
+
+      <tr>
+        <td>Pilau</td>
+        <td>Spiced rice cooked with beef</td>
+        <td>300</td>
+      </tr>
+
+      <tr>
+        <td>Chicken & Chips</td>
+        <td>Fried chicken served with french fries</td>
+        <td>450</td>
+      </tr>
+
+      <tr>
+        <td>Chapati & Beans</td>
+        <td>Soft chapati served with stewed beans</td>
+        <td>200</td>
+      </tr>
+    </table>
+
+    <h2>Popular Items</h2>
+
+    <ul>
+      <li>Pilau</li>
+      <li>Chicken & Chips</li>
+      <li>Ugali & Sukuma</li>
+      <li>Chapati & Beans</li>
+    </ul>
+
+    <h2>Customer Login</h2>
+
+    <form>
+      <label>Username</label><br />
+      <input type="text" name="username" /><br /><br />
+      <label>Password</label><br />
+      <input type="password" name="password" /><br /><br />
+
+      <button type="submit">Login</button>
+    </form>
+
+    <h2>Make a Reservation</h2>
+
+    <form>
+      <label>Name</label><br />
+      <input type="text" name="name" required /><br /><br />
+
+      <label>Email</label><br />
+      <input type="text" name="email" name="email" required /><br /><br />
+
+      <label>Number of Guests</label><br />
+      <input type="number" name="guests" min="1" required /><br /><br />
+
+      <label>Date</label><br />
+      <input type="date" name="date" required /><br /><br />
+
+      <button type="submit">Make Reservation</button>
+    </form>
+  </body>
+</html>
