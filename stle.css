@@ -1,0 +1,21 @@
+h1{
+    color: black;
+}
+h3{
+    font-size:30px;
+    text-align:left;
+}
+.black{
+    color:black
+}
+.grey{
+    color: grey;
+}
+
+ul,table,h3{
+    color: black;
+}
+
+h3{
+    background-color: lightgrey;
+}
