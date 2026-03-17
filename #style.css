@@ -22,3 +22,8 @@ h3{
 .menu{
     background-color: black;
 }
+/* INDEX.HTML STYLES */
+.popular_items{
+    list-style-type: lower-roman; 
+
+}
