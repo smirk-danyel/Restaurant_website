@@ -2,134 +2,154 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Karibu Restaurant Menu</title>
+
     <style>
       body {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: bisque;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
         margin: 0;
         padding: 0;
         text-align: center;
       }
-      header {
-        background-color: black;
-        padding: 30px 0;
-        color: aliceblue;
-        font-size: 36px;
-        font-weight: bold;
+
+      h1 {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        margin: 0;
       }
+
+      .header-img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+      }
+
       h2 {
         margin-top: 40px;
-        color: black;
-        color: black;
-        table {
-          width: 80%;
-          margin: 20px auto;
-          border-collapse: collapse;
-        }
+        color: #333;
+      }
 
-        table,
-        th,
-        td {
-          border: 1px solid;
-        }
+      table {
+        margin: 20px auto;
+        border-collapse: collapse;
+        width: 80%;
+        background-color: white;
+      }
 
-        th,
-        td {
-          padding: 12px;
-          text-align: left;
-        }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 12px;
+      }
 
-        th {
-          background-color: bisque;
-        }
+      th {
+        background-color: #555;
+        color: white;
+      }
 
-        img.menu-image {
-          width: 100%;
-          max-width: 600px;
-          display: block;
-          margin: 20px auto;
-          border-radius: 10px;
-        }
+      img.food-img {
+        width: 250px;
+        height: 150px;
+        object-fit: cover;
+        margin: 10px 0;
+        border-radius: 10px;
+      }
+
+      .order-btn {
+        display: inline-block;
+        margin: 40px;
+        padding: 15px 30px;
+        background-color: #ff6600;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 8px;
+      }
+
+      .order-btn:hover {
+        background-color: #e65c00;
       }
     </style>
   </head>
-  <body>
-    <header>Karibu Restaurant Menu</header>
 
+  <body>
+    <h1>Karibu Restaurant Menu</h1>
+
+    <!-- Header Image -->
+    <img
+      src="https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+      class="header-img"
+    />
+
+    <!-- Starters -->
     <h2>Starters</h2>
+    <img
+      src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d"
+      class="food-img"
+    />
+
     <table>
       <tr>
-        <th>Dish</th>
+        <th>Food</th>
         <th>Price</th>
       </tr>
       <tr>
-        <td>Spring Rolls</td>
-        <td>Ksh 300</td>
+        <td>Soup</td>
+        <td>Ksh 200</td>
       </tr>
       <tr>
-        <td>Chicken Wings</td>
-        <td>Ksh 400</td>
+        <td>Salad</td>
+        <td>Ksh 250</td>
       </tr>
     </table>
-    <img src="image/starters.jpg" alt="Starters Dish" class="menu-image" />
 
+    <!-- Breakfast -->
     <h2>Breakfast</h2>
+    <img
+      src="https://images.unsplash.com/photo-1490645935967-10de6ba17061"
+      class="food-img"
+    />
+
     <table>
       <tr>
-        <th>Dish</th>
+        <th>Food</th>
         <th>Price</th>
       </tr>
       <tr>
         <td>Pancakes</td>
-        <td>Ksh 200</td>
+        <td>Ksh 300</td>
       </tr>
       <tr>
         <td>Omelette</td>
         <td>Ksh 250</td>
       </tr>
-      <tr>
-        <td>Tea or Coffee</td>
-        <td>Ksh 100</td>
-      </tr>
     </table>
-    <img src="image/Breakfast.jpg" alt="Breakfast Dish" class="menu-image" />
 
+    <!-- Main Dishes -->
     <h2>Main Dishes</h2>
+    <img
+      src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
+      class="food-img"
+    />
+
     <table>
       <tr>
-        <th>Dish</th>
+        <th>Food</th>
         <th>Price</th>
       </tr>
       <tr>
         <td>Grilled Chicken</td>
-        <td>Ksh 850</td>
+        <td>Ksh 600</td>
       </tr>
       <tr>
-        <td>Beef Steak</td>
-        <td>Ksh 1200</td>
-      </tr>
-      <tr>
-        <td>Beef Pilau</td>
-        <td>Ksh 500</td>
+        <td>Beef Stew</td>
+        <td>Ksh 550</td>
       </tr>
     </table>
-    <img src="image/Maindish.jpg" alt="Main Dish" class="menu-image" />
 
-    <div style="text-align: center; margin: 30px 0">
-      <button
-        style="
-          padding: 10px 20px;
-          background-color: black;
-          color: antiquewhite;
-          border: none;
-          border-radius: 5px;
-          cursor: pointer;
-        "
-      >
-        Order Now
-      </button>
-    </div>
+    <!-- Order Button -->
+    <a href="#" class="order-btn">Order Now</a>
   </body>
 </html>
